@@ -1,0 +1,50 @@
+header h1{
+	text-align: center;
+	line-height: 6.5rem;
+	margin-bottom: 2.5rem;
+}
+header h1::before{
+    content: '\00267F';
+       margin-right: 0.5rem;
+       vertical-align: top; 
+}
+
+main address{
+    max-width: 60rem;
+    margin: 2rem auto;
+    background-color: #fafafa;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+main address ul{
+    line-height: 4.5rem;
+}
+main address ul > li{
+    padding: 1rem;
+    background-color: #2980b9;
+    color: #fff;
+}
+main address ul > li:nth-of-type(2n+2){
+    background: #ccc;
+    color: inherit;
+}
+section{
+	max-width: 35.0rem;
+    margin: 2.0rem auto 0;
+}
+section h2{
+	line-height: 3.5rem;
+	color: #fafafa;
+	background: #2980b9;
+	text-align: center;
+	padding: 0.5rem;
+}
+main .picture{
+    margin: 0 auto;
+    max-width: 20rem;
+	background-color: #fff;
+	padding: 1.0rem;
+	}
+main .picture img{
+	display: block;
+	width: 100%;
+}

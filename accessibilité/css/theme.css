@@ -1,0 +1,37 @@
+main{
+    width : 30rem;
+    margin : 1rem auto;
+}
+main ul{
+    display : block;
+}
+main ul li:nth{
+    margin : 0 auto;
+    padding: .5rem;
+}
+main ul li:nth-of-type(odd){
+    background-color: #01a3a4;
+}
+main ul li:nth-of-type(even){
+    background-color: #2e86de;
+}
+main ul li:last-child{
+    background-color: #fff;
+}
+main ul li:nth-of-type(1){
+    background-color: black;
+    color: #fff;
+}
+main ul li p img{
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.gris{
+    filter:grayscale(100%);
+}

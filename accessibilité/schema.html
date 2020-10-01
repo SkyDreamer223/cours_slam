@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/schema.css">
+    <title>Schema</title>
+</head>
+
+<body>
+    <header>
+        <h1>Schema</h1>
+    </header>
+    <main>
+        <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" itemref="desc title">
+            <ul>
+                <li itemprop="streetAddress">Mon Adresse : 192 Bd Charonne</li>
+                <li itemprop="addressLocality">Ville : Paris</li>
+                <li itemprop="postalCode"><abbr title="code postale">CP</abbr> : 75020</li>
+                <li itemprop="addressCountry">Pays : France</li>
+                <li itemprop="telephone">Tél : xxxxxxxxx</li>
+                <li itemprop="email">Contact: random@gmail.com</li>
+            </ul>
+        </address>
+
+        <section>
+            <h2 id="title" itemprop="name">Description</h2>
+            <p id="desc" itemprop="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi consectetur magnam
+                dolorum veritatis nostrum ullam quaerat, dolore porro atque ut architecto quos nulla aut blanditiis
+                beatae voluptatum quas recusandae mollitia!</p>
+        </section>
+
+        <div class="picture" role="img">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5">
+        <p itemprop="copyrightYear">&copy; 2020 MIT</p>
+    </footer>
+
+</body>
+
+</html>
